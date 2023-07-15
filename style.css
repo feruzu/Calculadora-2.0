@@ -71,6 +71,12 @@ box-shadow:  6px 6px 12px #c2c0c0,
              -6px -6px 12px #ffffff;
 }
 
+input.button:active {
+    background: linear-gradient(145deg, #c9c7c7, #efecec);
+box-shadow:  20px 20px 83px #bebcbc,
+             -20px -20px 83px #fffefe;
+}
+
 .button{
     margin: 1px;
     width: 60px;
