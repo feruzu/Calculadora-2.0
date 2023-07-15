@@ -1,0 +1,82 @@
+:root {
+    background-color: #eceaea ;
+}
+
+.calculadora{
+    border-radius: 2%;
+    width: 268px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+    border-radius: 1rem;
+    background: linear-gradient(145deg, #d0cdcd, #f7f4f4);
+    box-shadow:  30px 30px 36px #c7c4c4,
+                 -30px -30px 36px #ffffff;
+}
+
+input#cuenta.box, input#resultado.box { 
+    font-size: 20px;
+    width: 73%;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    margin-bottom: 5px;
+    color: rgb(22, 21, 21);
+    border-radius: 1rem 1rem 0rem 0rem;
+    height: 50px;
+    padding: 2rem;
+    font-weight: bold;
+}
+
+input#cuenta.box {
+    border-bottom: none;
+    margin: 0;
+    padding-bottom: 0;
+}
+
+input#resultado.box {
+    border-top: none;
+    border-radius: 0rem 0rem 1rem 1rem;
+    padding-top: 0;
+    color: #ff0069 ;
+}
+
+input.button{
+    color: rgb(71, 70, 70);
+    font-size: 20px;
+    cursor: pointer; 
+    border: none;
+    height: 50px;
+    border-radius: 1rem;
+    width: 60.5px;
+}   
+
+input.button:hover {
+    background: linear-gradient(145deg, #f7f4f4, #d0cdcd);
+box-shadow:  6px 6px 12px #c2c0c0,
+             -6px -6px 12px #ffffff;
+}
+
+.button{
+    margin: 1px;
+    width: 60px;
+    background-color: transparent;
+}
+
+#boton {
+    width: 125px;
+}
+
+#borrarNumero {
+    width: 125px;
+    color: #ff0069;
+}
+
+input#c.button, input#s.button {
+    color: #ff0069;
+}
+
+input#result.button {
+    color: #ff0069;
+}
