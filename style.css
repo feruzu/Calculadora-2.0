@@ -4,7 +4,8 @@
 
 .calculadora{
     border-radius: 2%;
-    width: 300px;
+    width: 100%;
+    max-width: 330px; 
     position: absolute;
     top: 50%;
     left: 50%;
@@ -25,20 +26,20 @@ input#cuenta.box, input#resultado.box {
     color: rgb(22, 21, 21);
     border-radius: 1rem 1rem 0rem 0rem;
     height: 50px;
-    padding: 2rem;
+    padding: 1.3rem;
     font-weight: bold;
 }
 
 
 input#c.button, input#uno.button, input#cuatro.button, input#siete.button, input#boton.button {
-    margin-left: 20px;
+    margin-left: 35px;
 } 
 
 input#cuenta.box {
     border-bottom: none;
     margin: 0;
     padding-bottom: 0;
-    margin-left: 4px;
+    margin-left:35px;
 }
 
 input#resultado.box {
@@ -47,7 +48,7 @@ input#resultado.box {
     padding-top: 0;
     color: #ff0069;
     font-size: 1.8rem;
-    margin-left: 4px;
+    margin-left: 35px;
 }
 
 input#boton.button {
@@ -106,7 +107,21 @@ input#result.button {
     
     input#resultado.box {
         margin-left: 8px;
+        padding-top: 10px;
+        margin-bottom: 40px;
     }
+
+    input#c.button, input#uno.button, input#cuatro.button, input#siete.button, input#boton.button {
+        margin-left: 17px;
+    } 
+
+    input#cuenta.box, input#resultado.box { 
+        padding: 2rem 2rem 0 2rem;
+    }
+
+ 
+    
+    
 
 }
 
