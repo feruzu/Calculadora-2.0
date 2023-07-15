@@ -39,7 +39,8 @@ input#resultado.box {
     border-top: none;
     border-radius: 0rem 0rem 1rem 1rem;
     padding-top: 0;
-    color: #ff0069 ;
+    color: #ff0069;
+    font-size: 1.8rem;
 }
 
 input.button{
